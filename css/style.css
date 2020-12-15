@@ -54,6 +54,17 @@ select {
   width: 100%;
 }
 
+input:focus,
+select:focus {
+  background-color: #aa2b51;
+  color: #fff;
+}
+
+input:focus::placeholder,
+select:focus::placeholder {
+  color: #fff;
+}
+
 ::placeholder {
   text-align: center;
 }
@@ -73,6 +84,12 @@ p.btn {
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
+}
+
+p.btn:hover {
+  cursor: pointer;
+  background-color: #aa2b51;
+  color: #fff;
 }
 
 .ticket {
@@ -130,4 +147,5 @@ td {
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   padding: 20px;
+  transition: 1s;
 }
