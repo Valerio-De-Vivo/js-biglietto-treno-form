@@ -3,10 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Form biglietto treno</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <h2>Calcola il prezzo del tuo biglietto</h2>
+
+    <!-- FORM DATI -->
+
+    <div class="calculator">
+
+        <div class="row">
+
+            <!-- COLONNA NOME  -->
+            <div class="col">
+                <label for="nome">Nome e Cognome</label>
+                <input id="nome" type="text" placeholder="Inserisci nome e cognome">
+            </div>
+
+            <!-- COLONNA KM  -->
+            <div class="col">
+                <label for="km">Km da percorrere</label>
+                <input id="km" type="number" placeholder="Quanti km vuoi percorrere?">
+            </div>
+
+            <!-- COLONNA ETA'  -->
+            <div class="col">
+                <label for="eta">Fascia d'età</label>
+                <select id="eta">
+                    <option value="minorenne">Under 18</option>
+                    <option value="maggiorenne">Over 18</option>
+                    <option value="over68">Over 68</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col pulsanti">
+                <a id="genera" class="btn" href="">genera</a>
+                <a class="btn" href="">annulla</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <h2>Il tuo biglietto</h2>
+    
+
+    <div class="ticket">
+        <div class="detail-title">
+            <p>Dettagli Passeggero:</p>
+        </div>
+        <div class="nomepasseggero">
+            <h3>Nome Passeggero</h3>
+        </div>
+        <table>
+            <thead>
+                <td>Offerta</td>
+                <td>Carrozza</td>
+                <td>Codice CP</td>
+                <td>Costo Biglietto</td>
+            </thead>
+            <tbody>
+                <td>ciao</td>
+                <td>ciao</td>
+                <td>ciao</td>
+            </tbody>
+        </table>
+    </div>
+
     
 
 

@@ -2,4 +2,112 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #aa2b51;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 28px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+label {
+  display: block;
+  color: #aa2b51;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.calculator,
+.ticket {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.col {
+  padding: 0 30px;
+  text-align: center;
+  width: 25%;
+}
+
+input,
+select {
+  padding: 10px 5px;
+  border: 1px solid #aa2b51;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.pulsanti {
+  width: 100%;
+}
+
+a.btn {
+  text-decoration: none;
+  border: 2px solid #aa2b51;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #fff;
+  color: #aa2b51;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.ticket {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.detail-title {
+  text-align-last: left;
+  color: #aa2b51;
+  width: 100%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.nomepasseggero {
+  width: 30%;
+  background-color: #aa2b51;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.4em;
+}
+
+table {
+  width: 70%;
+  padding: 30px 0;
+}
+
+thead {
+  font-weight: 600;
+}
+
+td {
+  padding: 10px 0;
 }
